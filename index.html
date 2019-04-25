@@ -10,23 +10,22 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 </head>
 
 <body>
-    <div class="navbar">
-        <nav>
-            <a class="btn" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
-                aria-controls="collapseExample">
-                Menu
-            </a>
-            <div class="collapse" id="collapseExample">
-                <a class="btn" href="#events">Events of the Day</a> |
-                <a class="btn" href="#accomodations">Accomodations</a> |
-                <a class="btn" href="#housekeeping">Housekeeping</a> |
-                <a class="btn" href="#activities">Activities</a> |
-                <a class="btn" href="#contact">Contact Us</a> |
-            </div>
-        </nav>
+    <div class="dropdown">
+        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Menu
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#events">Events of the Day</a>
+            <a class="dropdown-item" href="#accomodations">Accomodations</a>
+            <a class="dropdown-item" href="#housekeeping">Housekeeping</a>
+            <a class="dropdown-item" href="#activities">Activities</a>
+            <a class="dropdown-item" href="#contact">Contact Us</a>
+        </div>
     </div>
     <div class="hero-image">
         <div class="hero-text">
@@ -37,25 +36,36 @@
     </div>
 
     <div id="events">
-        <button src="./assets/images/cactus.png" width="100px" type="button" class="btn btn-secondary"
-            data-container="body" data-toggle="popover" data-placement="right"
-            data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-            Popover on right</button>
         <h1>Events of the Day</h1>
-        <ul class="event1">
-            <li class="eTime">5:00</li>
-            <li class="eName">Doors</li>
-            <li class="eLocation">Saguaro Buttes</li>
-            <li class="eDescription">Talk about it</li>
-            <a href="">Directions to venue</a>
-        </ul>
-        <ul class="event2">
-            <li class="eTime">5:30</li>
-            <li class="eName">Ceremony</li>
-            <li class="eLocation">Saguaro Buttes</li>
-            <li class="eDescription">Talk about it</li>
-            <a href="">Directions to venue</a>
-        </ul>
+        <div class="timeline">
+            <div class="containerT">
+                <ul class="event">
+                    <li class="eTime">5:00</li>
+                    <li class="eName">Doors</li>
+                    <li class="eLocation">Saguaro Buttes</li>
+                    <li class="eDescription">Talk about it</li>
+                    <a href="">Directions to venue</a>
+                </ul>
+            </div>
+            <div class="containerT">
+                <ul class="event">
+                    <li class="eTime">5:30</li>
+                    <li class="eName">Ceremony</li>
+                    <li class="eLocation">Saguaro Buttes</li>
+                    <li class="eDescription">Talk about it</li>
+                    <a href="">Directions to venue</a>
+                </ul>
+            </div>
+            <div class="containerT">
+                    <ul class="event">
+                        <li class="eTime">6:30</li>
+                        <li class="eName">Dinner</li>
+                        <li class="eLocation">Saguaro Buttes</li>
+                        <li class="eDescription">Talk about it</li>
+                        <a href="">Directions to venue</a>
+                    </ul>
+                </div>
+        </div>
     </div>
     <div id="accomodations">
         <div class="img-overlay">
@@ -80,51 +90,120 @@
             <p>dont bring your kids blurb</p>
         </div>
         <div class="weddingParty">
-            <h1>forgive the giant wedding party. pairings and info</h1>
-            <h2>Bridesmaids</h2>
-            <hr>
-            <h4>Jessica Alvarez</h4>
-            <p>Jessica...</p>
-            <h4>Kimberly Lindsey</h4>
-            <p>Kimberly...</p>
-            <h4>Libby Rothchild</h4>
-            <p>Libby...</p>
-            <h4>Sarah Reyes</h4>
-            <p>Sarah...</p>
-            <h4>Hillary Montilla</h4>
-            <p>Hilary...</p>
-            <h4>Sherrie Burgin</h4>
-            <p>Sherrie...</p>
-            <h4>Elyse Del Guidice</h4>
-            <p>Elyse...</p>
-            <h4>Carolina</h4>
-            <p>Carolina...</p>
-            <h4>Katharine H</h4>
-            <p>Katharine...</p>
-            <h4>Claire Ghanooni</h4>
-            <p>Claire...</p>
-            <h2>Groomsmen</h2>
-            <hr>
-            <h4>Francis Mulcahy</h4>
-            <p>Francis...</p>
-            <h4>Andrew Mash</h4>
-            <p>Andrew...</p>
-            <h4>Peter Mash</h4>
-            <p>Peter...</p>
-            <h4>Brett Reyes</h4>
-            <p>Brett...</p>
-            <h4>Logan Hale</h4>
-            <p>Logan...</p>
-            <h4>Noel Carpio</h4>
-            <p>Noel...</p>
-            <h4>Philip Porter</h4>
-            <p>Philip...</p>
-            <h4>Jeffrey Conners</h4>
-            <p>Jeffrey...</p>
-            <h4>Scott Thompson</h4>
-            <p>Scott...</p>
-            <h4>Randy Borg-James</h4>
-            <p>Randy...</p>
+            <h1>wedding party. pairings and info</h1>
+            <div class="row">
+                <div class="col">
+                    <h2>Bridesmaids</h2>
+                    <hr>
+                    <div class="person">
+                        <h4>Jessica Alvarez</h4>
+                        <img class="person-img" src="" alt="Jessica">
+                        <p>Jessica...</p>
+                    </div>
+                    <div class="person">
+                        <h4>Kimberly Lindsey</h4>
+                        <img class="person-img" src="" alt="Kimberly">
+                        <p>Kimberly...</p>
+                    </div>
+                    <div class="person">
+                        <h4>Libby Rothchild</h4>
+                        <img class="person-img" src="" alt="Libby">
+                        <p>Libby...</p>
+                    </div>
+                    <div class="person">
+                        <h4>Sarah Reyes</h4>
+                        <img class="person-img" src="" alt="Sarah">
+                        <p>Sarah...</p>
+                    </div>
+                    <div class="person">
+                        <h4>Hillary Montilla</h4>
+                        <img class="person-img" src="" alt="Hillary">
+                        <p>Hilary...</p>
+                    </div>
+                    <div class="person">
+                        <h4>Sherrie Burgin</h4>
+                        <img class="person-img" src="" alt="Sherrie">
+                        <p>Sherrie...</p>
+                    </div>
+                    <div class="person">
+                        <h4>Elyse Del Guidice</h4>
+                        <img class="person-img" src="" alt="Elyse">
+                        <p>Elyse...</p>
+                    </div>
+                    <div class="person">
+                        <h4>Carolina</h4>
+                        <img class="person-img" src="" alt="Carolina">
+                        <p>Carolina...</p>
+                    </div>
+                    <div class="person">
+                        <h4>Katharine H</h4>
+                        <img class="person-img" src="" alt="Katharine">
+                        <p>Katharine...</p>
+                    </div>
+                    <div class="person">
+                        <h4>Claire Ghanooni</h4>
+                        <img class="person-img" src="" alt="Claire">
+                        <p>Claire...</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <h2>Groomsmen</h2>
+                    <hr>
+                    <div class="person">
+                        <h4>Francis Mulcahy</h4>
+                        <img class="person-img" src="" alt="Frankie">
+                        <p>Frankie has been Greg's friend through it all since grade 1.</p>
+                    </div>
+                    <div class="person">
+                        <h4>Andrew Mash</h4>
+                        <img class="person-img" src="" alt="Andrew">
+                        <p>Andrew is Greg's oldest brother, and a model of character who Greg has looked up to his whole
+                            life.</p>
+                    </div>
+                    <div class="person">
+                        <h4>Peter Mash</h4>
+                        <img class="person-img" src="./assets/images/Pete.JPG" alt="Pete">
+                        <p>Pete is the middle brother between Andrew and Greg, and is the most caring and loving guy
+                            Greg has ever known.</p>
+                    </div>
+                    <div class="person">
+                        <h4>Brett Reyes</h4>
+                        <img class="person-img" src="" alt="Brett">
+                        <p>Brett is Laura's brother </p>
+                    </div>
+                    <div class="person">
+                        <h4>Logan Hale</h4>
+                        <img class="person-img" src="" alt="Logan">
+                        <p>Logan...</p>
+                    </div>
+                    <div class="person">
+                        <h4>Noel Carpio</h4>
+                        <img class="person-img" src="" alt="Noel">
+                        <p>Noel appreciates great films such as Paul Blart: Mall Cop and anything Nicholas Cage is in.
+                        </p>
+                    </div>
+                    <div class="person">
+                        <h4>Philip Porter</h4>
+                        <img class="person-img" src="./assets/images/philip.jpg" alt="Philip">
+                        <p>Philip...</p>
+                    </div>
+                    <div class="person">
+                        <h4>Jeffrey Conners</h4>
+                        <img class="person-img" src="./assets/images/jeff.jpeg" alt="Jeff">
+                        <p>Jeff...</p>
+                    </div>
+                    <div class="person">
+                        <h4>Scott Thompson</h4>
+                        <img class="person-img" src="./assets/images/scott.jpeg" alt="Scott">
+                        <p>Scott...</p>
+                    </div>
+                    <div class="person">
+                        <h4>Randy Borg-James</h4>
+                        <img class="person-img" src="" alt="">
+                        <p>Randy and Greg have been friends since high school</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div id="activities">
@@ -181,7 +260,7 @@
         <h3>Email us:</h3>
         <h4>lgmash31@gmail.com</h4>
         <h3>Share your pics with us:</h3>
-        <h4>#aMashMadeInHeaven</h4>
+        <h4>#MashMadeInHeaven</h4>
     </div>
     <div class="footer">
         <div class="img-overlay">
