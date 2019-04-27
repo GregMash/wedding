@@ -14,14 +14,15 @@
 </head>
 
 <body>
-    <div class="dropdown">
-        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+    <div class="dropdowns">
+        <button class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-            Menu
-        </a>
+            JUMP TO
+    </button>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#ourStory">Our Story</a>
             <a class="dropdown-item" href="#events">Events of the Day</a>
-            <a class="dropdown-item" href="#accomodations">Accomodations</a>
+            <a class="dropdown-item" href="#accommodations">Accommodations</a>
             <a class="dropdown-item" href="#housekeeping">Housekeeping</a>
             <a class="dropdown-item" href="#activities">Activities</a>
             <a class="dropdown-item" href="#contact">Contact Us</a>
@@ -29,49 +30,74 @@
     </div>
     <div class="hero-image">
         <div class="hero-text">
-            <h1>Laura & Greg</h1>
+            <h2>Laura & Greg</h2>
             <h3>are getting married</h3>
             <h3>March 28, 2020</h3>
         </div>
     </div>
 
+    <div id="ourStory">
+        <hr>
+        <h1>Our Story</h1>
+        <hr>
+    </div>
+    <div class="ourStory">
+        <p>Laura and Greg met on Bumble in Denver, CO.</p>
+        <div id="directions">
+            <a href="">Directions to venue</a>
+        </div>
+        <img src="./assets/images/sb.jpg" alt="Saguaro Buttes">
+    </div>
+
+
     <div id="events">
+        <hr>
         <h1>Events of the Day</h1>
+        <hr>
+    </div>
+    <div class="events">
         <div class="timeline">
             <div class="containerT">
                 <ul class="event">
-                    <li class="eTime">5:00</li>
-                    <li class="eName">Doors</li>
-                    <li class="eLocation">Saguaro Buttes</li>
+                    <li class="eTime">5:00 P.M.</li>
+                    <li class="eThing">Doors open at Saguaro Buttes</li>
                     <li class="eDescription">Talk about it</li>
-                    <a href="">Directions to venue</a>
                 </ul>
             </div>
             <div class="containerT">
                 <ul class="event">
-                    <li class="eTime">5:30</li>
-                    <li class="eName">Ceremony</li>
-                    <li class="eLocation">Saguaro Buttes</li>
-                    <li class="eDescription">Talk about it</li>
-                    <a href="">Directions to venue</a>
+                    <li class="eTime">5:30 P.M.</li>
+                    <li class="eThing">Ceremony</li>
+                    <li class="eDescription">The grandest 20 minutes of our lives. Don't miss it!</li>
                 </ul>
             </div>
             <div class="containerT">
-                    <ul class="event">
-                        <li class="eTime">6:30</li>
-                        <li class="eName">Dinner</li>
-                        <li class="eLocation">Saguaro Buttes</li>
-                        <li class="eDescription">Talk about it</li>
-                        <a href="">Directions to venue</a>
-                    </ul>
-                </div>
+                <ul class="event">
+                    <li class="eTime">6:30 P.M.</li>
+                    <li class="eThing">Dinner</li>
+
+                    <li class="eDescription">Talk about it</li>
+                </ul>
+            </div>
+            <div class="containerT">
+                <ul class="event">
+                    <li class="eTime">7:30 P.M.</li>
+                    <li class="eThing">Reception</li>
+                    <li class="eDescription">Talk about it</li>
+                </ul>
+            </div>
         </div>
     </div>
-    <div id="accomodations">
+    <div id="accommodations">
+        <hr>
+        <h1>Accommodations</h1>
+        <hr>
+    </div>
+    <div class="accomodations">
         <div class="img-overlay">
             <img src="./assets/images/hilton.png" class="d-block" alt="Hilton">
             <div class="hero-text">
-                <h1>Hilton Tucson East</h1>
+                <h2>Hilton Tucson East</h2>
                 <h4>7600 East Broadway Blvd. 85710<a href="tel: +15207215600" class="tel">(520) 721-5600</a></h4>
                 <p>We have reserved a block of rooms at the Hilton.</p>
                 <button>Book this hotel</button>
@@ -81,16 +107,23 @@
 
     </div>
     <div id="housekeeping">
-        <h1>But what about the...</h1>
+        <hr>
+        <h1>Housekeeping Items</h1>
+        <hr>
+    </div>
+    <div class="housekeeping">
         <div class="gifts">
-            <p>gifts/registry blurb</p>
+            <h2>Registry</h2>
+            <p>Your presence is gift enough for us but if you feel inclined to get us something we have registered at place...</p>
             <a href="">registry link</a>
         </div>
         <div class="kids">
-            <p>dont bring your kids blurb</p>
+            <h2>Kids and Pets</h2>
+            <p>dont bring your kids or pets</p>
         </div>
         <div class="weddingParty">
-            <h1>wedding party. pairings and info</h1>
+            <h2>Wedding Party</h2>
+            <br>
             <div class="row">
                 <div class="col">
                     <h2>Bridesmaids</h2>
@@ -151,13 +184,13 @@
                     <hr>
                     <div class="person">
                         <h4>Francis Mulcahy</h4>
-                        <img class="person-img" src="" alt="Frankie">
+                        <img class="person-img" src="./assets/images/frankie.png" alt="Frankie">
                         <p>Frankie has been Greg's friend through it all since grade 1.</p>
                     </div>
                     <div class="person">
                         <h4>Andrew Mash</h4>
-                        <img class="person-img" src="" alt="Andrew">
-                        <p>Andrew is Greg's oldest brother, and a model of character who Greg has looked up to his whole
+                        <img class="person-img" src="./assets/images/andrew.png" alt="Andrew">
+                        <p>Andrew is Greg's oldest brother and a model of character who Greg has looked up to his whole
                             life.</p>
                     </div>
                     <div class="person">
@@ -168,17 +201,17 @@
                     </div>
                     <div class="person">
                         <h4>Brett Reyes</h4>
-                        <img class="person-img" src="" alt="Brett">
+                        <img class="person-img" src="./assets/images/brett.jpeg" alt="Brett">
                         <p>Brett is Laura's brother </p>
                     </div>
                     <div class="person">
                         <h4>Logan Hale</h4>
-                        <img class="person-img" src="" alt="Logan">
-                        <p>Logan...</p>
+                        <img class="person-img" src="./assets/images/logan.png" alt="Logan">
+                        <p>Logan is one of the funniest and </p>
                     </div>
                     <div class="person">
                         <h4>Noel Carpio</h4>
-                        <img class="person-img" src="" alt="Noel">
+                        <img class="person-img" src="./assets/images/noel.png" alt="Noel">
                         <p>Noel appreciates great films such as Paul Blart: Mall Cop and anything Nicholas Cage is in.
                         </p>
                     </div>
@@ -199,7 +232,7 @@
                     </div>
                     <div class="person">
                         <h4>Randy Borg-James</h4>
-                        <img class="person-img" src="" alt="">
+                        <img class="person-img" src="./assets/images/randy.png" alt="Randy">
                         <p>Randy and Greg have been friends since high school</p>
                     </div>
                 </div>
@@ -207,7 +240,11 @@
         </div>
     </div>
     <div id="activities">
-        <h1>While you are in Tucson</h1>
+        <hr>
+        <h1>While you are visiting Tucson...</h1>
+        <hr>
+    </div>
+    <div class="activities">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -256,17 +293,21 @@
         </div>
     </div>
     <div id="contact">
-        <h1>Contact us</h1>
-        <h3>Email us:</h3>
-        <h4>lgmash31@gmail.com</h4>
-        <h3>Share your pics with us:</h3>
-        <h4>#MashMadeInHeaven</h4>
+        <hr>
+        <h1>Contact Us</h1>
+        <hr>
+    </div>
+    <div class="contact">
+        <h5>Email us!</h5>
+        <a id="emailUs" href="mailto:lgmash31@gmail.com">lgmash31@gmail.com</a>
+        <h5>Share your photos with us!</h5>
+        <h1>#MashMadeInHeaven</h1>
     </div>
     <div class="footer">
         <div class="img-overlay">
-            <img src="./assets/images/footerImg.jpeg" class="d-block" alt="Biosphere 2">
+            <img src="./assets/images/footerImg.jpeg" class="d-block" alt="We hope to see you there!">
             <div class="hero-text2">
-                <h2>We Hope to See You There!</h2>
+                <h3>We Hope to See You There!</h3>
             </div>
         </div>
     </div>
