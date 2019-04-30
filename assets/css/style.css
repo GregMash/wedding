@@ -40,7 +40,9 @@ h1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/g+l.jpg");
 
   /* Set a specific height */
-  height: 60%;
+  width: 100%;
+  height: 90%;
+
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -106,7 +108,7 @@ h1 {
   top: 22px;
   width: 0;
   z-index: 1;
-  left: 27%;
+  left: calc(27% - 1px);
   border: medium solid white;
   border-width: 10px 10px 10px 0;
   border-color: transparent white transparent transparent;
@@ -182,11 +184,12 @@ h1 {
 }
 
 .person-img {
-  width: 200px;
+  width: 90%;
+  max-width: 320px;
 }
 
 #ourStory, #events, #accommodations, #housekeeping, #activities, #contact {
-  margin: 10% 0% 0% 0%;
+  margin: 5% 0% 0% 0%;
 }
 
 
@@ -198,7 +201,7 @@ h1 {
 }
 
 .contact {
-  padding: 10% 0% 10% 0%;
+  padding: 35% 0% 10% 0%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/g+lFam.jpg");
   background-size: cover;
   background-position-y: 30%;
@@ -213,7 +216,11 @@ h1 {
   color: white;
   font-size: 50px;
   font-style: italic;
-  
+}
+
+#directMe {
+  color: white;
+  font-size: 50px;
 }
 
 hr {
