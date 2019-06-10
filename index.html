@@ -11,6 +11,16 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.0/moment.min.js"></script>
 </head>
 
 <body>
@@ -18,7 +28,7 @@
         <button class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             JUMP TO
-    </button>
+        </button>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
             <a class="dropdown-item" href="#ourStory">Our Story</a>
             <a class="dropdown-item" href="#events">Events of the Day</a>
@@ -28,6 +38,10 @@
             <a class="dropdown-item" href="#contact">Contact Us</a>
         </div>
     </div>
+
+    <div class="countdown"></div>
+
+
     <div class="hero-image">
         <div class="hero-text">
             <h2>Laura & Greg</h2>
@@ -42,12 +56,16 @@
         <hr>
     </div>
     <div class="ourStory">
-        <p>Laura and Greg met on Bumble in Denver, CO.</p>
-        <div id="directions">
-            <h6>Laura and Greg will be married at Saguaro Buttes, a beautiful and secluded location overlooking the Saguaro National Park.</h6>
-            <a id="directMe" href="https://www.google.com/maps/place/Saguaro+Buttes+Wedding+%26+Event+Site/@32.1469175,-110.7348423,17z/data=!3m1!4b1!4m5!3m4!1s0x86d66747ac6e5217:0xb55694c105f91ac0!8m2!3d32.146913!4d-110.732659">Saguaro Buttes Directions</a>
+        <div id="story">
+            <p>Laura and Greg met on Bumble in Denver, CO.</p>
         </div>
-        <img class="person-img" src="./assets/images/sb.jpg" alt="Saguaro Buttes">
+        <div id="directions">
+            <h6>Laura and Greg will be married at Saguaro Buttes, a beautiful and secluded location overlooking the
+                Saguaro National Park.</h6>
+        </div>
+        <a id="directMe"
+            href="https://www.google.com/maps/place/Saguaro+Buttes+Wedding+%26+Event+Site/@32.1469175,-110.7348423,17z/data=!3m1!4b1!4m5!3m4!1s0x86d66747ac6e5217:0xb55694c105f91ac0!8m2!3d32.146913!4d-110.732659">~
+            Directions to Saguaro Buttes ~</a>
     </div>
 
 
@@ -97,7 +115,7 @@
     <div class="accomodations">
         <div class="img-overlay">
             <img src="./assets/images/hilton.png" class="d-block" alt="Hilton">
-            <div class="hero-text">
+            <div class="hero-text3">
                 <h2>Hilton Tucson East</h2>
                 <h4>7600 East Broadway Blvd. 85710<a href="tel: +15207215600" class="tel">(520) 721-5600</a></h4>
                 <p>We have reserved a block of rooms at the Hilton.</p>
@@ -115,7 +133,8 @@
     <div class="housekeeping">
         <div class="gifts">
             <h2>Registry</h2>
-            <p>Your presence is gift enough for us but if you feel inclined to get us something we have registered at place...</p>
+            <p>Your presence is gift enough for us but if you feel inclined to get us something we have registered at
+                place...</p>
             <a href="">registry link</a>
         </div>
         <div class="kids">
@@ -132,52 +151,42 @@
                     <div class="person">
                         <h4>Jessica Alvarez</h4>
                         <img class="person-img" src="" alt="Jessica">
-                        <p>Jessica...</p>
                     </div>
                     <div class="person">
                         <h4>Kimberly Lindsey</h4>
                         <img class="person-img" src="" alt="Kimberly">
-                        <p>Kimberly...</p>
                     </div>
                     <div class="person">
-                        <h4>Libby Rothchild</h4>
+                        <h4>Libby Rothschild</h4>
                         <img class="person-img" src="" alt="Libby">
-                        <p>Libby...</p>
                     </div>
                     <div class="person">
                         <h4>Sarah Reyes</h4>
                         <img class="person-img" src="" alt="Sarah">
-                        <p>Sarah...</p>
                     </div>
                     <div class="person">
                         <h4>Hillary Montilla</h4>
                         <img class="person-img" src="" alt="Hillary">
-                        <p>Hilary...</p>
                     </div>
                     <div class="person">
                         <h4>Sherrie Burgin</h4>
                         <img class="person-img" src="" alt="Sherrie">
-                        <p>Sherrie...</p>
                     </div>
                     <div class="person">
                         <h4>Elyse Del Guidice</h4>
                         <img class="person-img" src="" alt="Elyse">
-                        <p>Elyse...</p>
                     </div>
                     <div class="person">
-                        <h4>Carolina</h4>
+                        <h4>Carolina Sutton</h4>
                         <img class="person-img" src="" alt="Carolina">
-                        <p>Carolina...</p>
                     </div>
                     <div class="person">
-                        <h4>Katharine H</h4>
+                        <h4>Katharine Mitchell</h4>
                         <img class="person-img" src="" alt="Katharine">
-                        <p>Katharine...</p>
                     </div>
                     <div class="person">
                         <h4>Claire Ghanooni</h4>
                         <img class="person-img" src="" alt="Claire">
-                        <p>Claire...</p>
                     </div>
                 </div>
                 <div class="col">
@@ -186,55 +195,42 @@
                     <div class="person">
                         <h4>Francis Mulcahy</h4>
                         <img class="person-img" src="./assets/images/frankie.png" alt="Frankie">
-                        <p>Frankie has been Greg's friend through it all since grade 1.</p>
                     </div>
                     <div class="person">
                         <h4>Andrew Mash</h4>
                         <img class="person-img" src="./assets/images/andrew.png" alt="Andrew">
-                        <p>Andrew is Greg's oldest brother and a model of character who Greg has looked up to his whole
-                            life.</p>
                     </div>
                     <div class="person">
                         <h4>Peter Mash</h4>
                         <img class="person-img" src="./assets/images/Pete.JPG" alt="Pete">
-                        <p>Pete is the middle brother between Andrew and Greg, and is the most caring and loving guy
-                            Greg has ever known.</p>
                     </div>
                     <div class="person">
                         <h4>Brett Reyes</h4>
-                        <img class="person-img" src="./assets/images/brett.jpeg" alt="Brett">
-                        <p>Brett is Laura's brother </p>
+                        <img class="person-img" src="./assets/images/brett-400x400.jpeg" alt="Brett">
                     </div>
                     <div class="person">
                         <h4>Logan Hale</h4>
                         <img class="person-img" src="./assets/images/logan.png" alt="Logan">
-                        <p>Logan is one of the funniest and </p>
                     </div>
                     <div class="person">
                         <h4>Noel Carpio</h4>
                         <img class="person-img" src="./assets/images/noel.png" alt="Noel">
-                        <p>Noel appreciates great films such as Paul Blart: Mall Cop and anything Nicholas Cage is in.
-                        </p>
                     </div>
                     <div class="person">
                         <h4>Philip Porter</h4>
                         <img class="person-img" src="./assets/images/philip.jpg" alt="Philip">
-                        <p>Philip...</p>
                     </div>
                     <div class="person">
                         <h4>Jeffrey Conners</h4>
                         <img class="person-img" src="./assets/images/jeff.jpeg" alt="Jeff">
-                        <p>Jeff...</p>
                     </div>
                     <div class="person">
                         <h4>Scott Thompson</h4>
                         <img class="person-img" src="./assets/images/scott.jpeg" alt="Scott">
-                        <p>Scott...</p>
                     </div>
                     <div class="person">
                         <h4>Randy Borg-James</h4>
                         <img class="person-img" src="./assets/images/randy.png" alt="Randy">
-                        <p>Randy and Greg have been friends since high school</p>
                     </div>
                 </div>
             </div>
@@ -252,7 +248,7 @@
                     <div class="img-overlay">
                         <img src="./assets/images/biosphere2.jpg" class="d-block" alt="Biosphere 2">
                     </div>
-                    <div class="hero-text">
+                    <div class="hero-text3">
                         <h2>See the Biosphere 2</h2>
                         <p>If you are interested at all in Earth and Science education, look no further. Tours daily.
                         </p>
@@ -263,7 +259,7 @@
                     <div class="img-overlay">
                         <img src="./assets/images/sabino-canyon.jpg" class="d-block" alt="Biosphere 2">
                     </div>
-                    <div class="hero-text">
+                    <div class="hero-text3">
                         <h2>Hike Sabino Canyon</h2>
                         <p>Sabino Canyon has some awesome trails with varying levels of difficulty and length. </p>
                         <a class="btn btn-info"
@@ -275,7 +271,7 @@
                     <div class="img-overlay">
                         <img src="./assets/images/desert-museum.jpg" class="d-block" alt="Biosphere 2">
                     </div>
-                    <div class="hero-text">
+                    <div class="hero-text3">
                         <h2>Visit the Desert Museum</h2>
                         <p>The Desert Museum has a zoo, botanical garden, art gallery, natural history museum, and
                             aquarium. It's a great glimpse into desert living!</p>
@@ -306,22 +302,14 @@
     </div>
     <div class="footer">
         <div class="img-overlay">
-            <img src="./assets/images/footerImg.jpeg" class="d-block" alt="We hope to see you there!">
+            <img src="./assets/images/footerImg..jpeg" class="d-block" alt="We hope to see you there!">
             <div class="hero-text2">
                 <h3>We Hope to See You There!</h3>
             </div>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <script src="./assets/js/app.js" async defer></script>
-</body>
 
+
+    <script src="./assets/js/app.js"></script>
+</body>
 </html>

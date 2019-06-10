@@ -1,8 +1,8 @@
 body, html {
     height: 100%;
-    background-color: rgb(236, 192, 172);
     font-family: 'Open Sans Condensed', sans-serif;
-    color: navy;
+    color: white;
+    background-color: black;
     text-align: center;
     scroll-behavior: smooth;
     margin: auto;
@@ -18,10 +18,10 @@ h1 {
 }
 
 #dropdownMenuLink {
-  border: 3px solid white;
+  border: 3px groove rgb(241, 127, 81);
   border-radius: 6px;
   padding: 2% 5% 2% 5%;
-  background-color: rgb(236, 192, 172);
+  background-color: white;
   color: black;
 }
 
@@ -55,7 +55,7 @@ h1 {
 .hero-text {
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -131,7 +131,16 @@ h1 {
 .hero-text2 {
   text-align: center;
   position: absolute;
-  top: 20%;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text3 {
+  text-align: center;
+  position: absolute;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -168,11 +177,13 @@ h1 {
 }
 
 .row {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("../images/cactus3.png");
-  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("../images/cactus4.png");
+  background-position-x: 45%;
+  background-position-y: center;
   background-size: cover;
   image-rendering: optimizeQuality;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   color: white;
 }
 
@@ -185,11 +196,11 @@ h1 {
 
 .person-img {
   width: 90%;
-  max-width: 320px;
+  border-radius: 50%;
+  margin-bottom: 10%;
 }
 
 #ourStory, #events, #accommodations, #housekeeping, #activities, #contact {
-  margin: 5% 0% 0% 0%;
 }
 
 
@@ -201,11 +212,26 @@ h1 {
 }
 
 .contact {
-  padding: 35% 0% 10% 0%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/g+lFam.jpg");
+  padding: 5% 0% 35% 0%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/contact.jpg");
   background-size: cover;
   background-position-y: 30%;
   color: white;
+}
+
+#directions {
+  padding: 8% 0% 37% 0%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/sb.JPG");
+  background-size: cover;
+  color: white;
+}
+
+#story {
+  padding: 8% 0% 37% 0%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/g+lstory.jpg");
+  background-size: cover;
+  color: white;
+  margin-bottom: 1%;
 }
 
 .footer {
@@ -220,7 +246,7 @@ h1 {
 
 #directMe {
   color: white;
-  font-size: 50px;
+  font-size: 25px;
 }
 
 hr {
