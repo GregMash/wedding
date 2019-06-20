@@ -1,6 +1,6 @@
 body, html {
     height: 100%;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Monsieur La Doulaise', cursive;
     color: white;
     background-color: black;
     text-align: center;
@@ -146,11 +146,18 @@ h1 {
   color: white;
 }
 
+
+
 /*this is the images in carousel for activities in tucson*/
 .d-block {
   width: 100%;
   min-height: 300px;
   max-height: 550px;
+}
+
+.d-block2 {
+  width: 100%;
+  min-height: 300px;
 }
 
 .img-overlay {
@@ -162,6 +169,23 @@ h1 {
 }
 
 .img-overlay:before {
+  display: block;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.5) 100%);
+}
+
+.img-overlay2 {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: none;
+}
+
+.img-overlay2:before {
   display: block;
   content: '';
   position: absolute;
@@ -196,6 +220,7 @@ h1 {
 
 .person-img {
   width: 90%;
+  min-height: 225px;
   border-radius: 50%;
   margin-bottom: 10%;
 }
@@ -224,13 +249,34 @@ h1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/sb.JPG");
   background-size: cover;
   color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
-#story {
+/* #story {
   padding: 8% 0% 37% 0%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/g+lstory.jpg");
   background-size: cover;
   color: white;
+  margin-bottom: 1%;
+} */
+
+#story {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/roses.png");
+  background-size: cover;
+  width: 90%;
+  color: black;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  min-height: 700px;
+}
+
+#adventures {
+  height: 100%;
+  width: 100%;
+}
+
+#storyImg {
   margin-bottom: 1%;
 }
 
@@ -252,4 +298,8 @@ h1 {
 hr {
   width: 75%;
   color: black;
+}
+
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
 }
