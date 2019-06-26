@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -25,38 +27,48 @@
 </head>
 
 <body>
-    <div class="dropdowns">
-        <button class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            JUMP TO
-        </button>
-        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
-            <a class="dropdown-item" href="#ourStory">Our Story</a>
-            <a class="dropdown-item" href="#events">Events of the Day</a>
-            <a class="dropdown-item" href="#accommodations">Accommodations</a>
-            <a class="dropdown-item" href="#housekeeping">Housekeeping</a>
-            <a class="dropdown-item" href="#activities">Activities</a>
-            <a class="dropdown-item" href="#contact">Contact Us</a>
-            <a class="dropdown-item" href="#adventures">Our Adventures</a>
-
-        </div>
+    <div class="container">
+        <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+            <a class="navbar-brand" href="#">#mashmadeinheaven</a>
+            <button class="navbar-toggler" id="navToggle" type="button" data-toggle="collapse"
+                data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="nav-item" href="#ourStory">Our Story</a>
+                <a class="nav-item" href="#events">Events of the Day</a>
+                <a class="nav-item" href="#accommodations">Accommodations</a>
+                <a class="nav-item" href="#housekeeping">Housekeeping</a>
+                <a class="nav-item" href="#activities">Activities</a>
+                <a class="nav-item" href="#contact">Contact Us</a>
+                <a class="nav-item" href="#adventures">Our Adventures</a>
+        </nav>
     </div>
-
-    <div class="countdown"></div>
-
 
     <div class="hero-image">
         <div class="hero-text">
-            <h2>Laura & Greg</h2>
-            <h3>are getting married</h3>
-            <h3>March 28, 2020</h3>
+            <h2 class="block-text">LAURA</h2>
+            <h3 class="sacramento block-text">and</h3>
+            <h2 class="block-text"> GREG</h2>
+            <h5>are getting married</h5>
         </div>
     </div>
 
+    <div class="col spaced-col">
+        <h3>On</h3>
+        <h3>March 28, 2020</h3>
+    </div>
+    <div class="col spaced-col">
+        <h3>In</h3>
+        <h3>Tucson, AZ</h3>
+    </div>
+
+    <div id="countdown">This will display the countdown timer</div>
+
     <div id="ourStory">
-        <hr>
         <h1>Our Story</h1>
-        <hr>
     </div>
     <div class="ourStory">
         <img id="storyImg" src="./assets/images/g+lstory.jpg" width="100%" alt="Greg and Laura">
@@ -234,7 +246,7 @@
                     <div class="person">
                         <img class="person-img" src="./assets/images/men.jpg"
                             alt="The way the army of groomsmen were asked...">
-                        <h4>The way the mob of groomsmen were asked...</h4>
+                        <h4>Mob of groomsmen proposals...</h4>
                     </div>
                     <div class="person">
                         <img class="person-img" src="./assets/images/randy.png" alt="Randy">
