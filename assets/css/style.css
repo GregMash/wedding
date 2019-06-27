@@ -25,6 +25,16 @@ h1 {
   font-style: italic;
 }
 
+.bigger {
+  font-size: 50px;
+}
+
+#welcome {
+  width: 80%;
+  font-size: 25px;
+  margin: auto;
+}
+
 .block-text {
   display: inline;
   clear: both;
@@ -35,13 +45,16 @@ h1 {
 }
 
 #countdown {
-  margin: 5%;
+  margin: 35% 0% 10% 0%;
+  clear: both;
 }
 .sacramento {
   font-family: 'Sacramento', cursive;
 }
 
-
+.poiret {
+  font-family: 'Poiret One', cursive;
+}
 
 .underline {
     -moz-background-size: 257px 954px;
@@ -71,13 +84,13 @@ h1 {
 
 /* Place text in the middle of the image */
 .hero-text {
+  width: fit-content;
   text-align: center;
   position: absolute;
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 60px;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -245,6 +258,7 @@ h1 {
 }
 
 #ourStory, #events, #accommodations, #housekeeping, #activities, #contact {
+  margin-top: 5%;
 }
 
 
@@ -268,6 +282,7 @@ h1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/sb.JPG");
   background-size: cover;
   color: white;
+  clear: both;
   /* font-family: 'Open Sans Condensed', sans-serif; */
 }
 
@@ -280,13 +295,13 @@ h1 {
 } */
 
 #story {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/roses.png");
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/roses.png");
   background-size: cover;
   width: 90%;
   color: black;
   margin: auto;
   background-position: bottom;
-  min-height: 900px;
+  min-height: 900px; */
 }
 
 #adventures {
@@ -300,6 +315,7 @@ h1 {
 
 .footer {
   margin-top: 5%;
+  clear: both;
 }
 
 #emailUs {
@@ -339,6 +355,10 @@ p {
     width: 350px;
     height: 350px;
   }
+  #countdown {
+    margin: 25% 0% 5% 0%;
+    clear: both;
+  }
 }
 
 @media only screen and (min-width: 950px) {
@@ -346,4 +366,10 @@ p {
     width: 450px;
     height: 450px;
   }
+
+  #countdown {
+    margin: 15% 0% 5% 0%;
+    clear: both;
+  }
+
 }
