@@ -68,7 +68,7 @@ h1 {
 /* The beginning hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/g+lstory.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/l+g/g+lstory.jpg");
 
   /* Set a specific height */
   width: 100%;
@@ -233,7 +233,7 @@ h1 {
 }
 
 .row {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("../images/cactus4.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("../images/others/cactus4.png");
   background-position-x: 45%;
   background-position-y: center;
   background-size: cover;
@@ -257,13 +257,13 @@ h1 {
   margin-top: 10%;
 }
 
-#ourStory, #events, #accommodations, #housekeeping, #activities, #contact {
-  margin-top: 5%;
+#ourStory, #events, #accommodations, #housekeeping, #activities, #contact, #adventures {
+  margin-top: 5% 0% 5% 0%;
 }
 
 
 .events {
-  background-image: url("../images/background.png");
+  background-image: url("../images/others/background.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; 
@@ -271,7 +271,7 @@ h1 {
 
 .contact {
   padding: 5% 0% 35% 0%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/contact.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/l+g/contact.jpg");
   background-size: cover;
   background-position-y: 30%;
   color: white;
@@ -279,7 +279,7 @@ h1 {
 
 #directions {
   padding: 8% 0% 37% 0%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/sb.JPG");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/others/sb.JPG");
   background-size: cover;
   color: white;
   clear: both;
