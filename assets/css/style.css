@@ -251,8 +251,8 @@ h1 {
 }
 
 .person-img {
-  width: 225px;
-  height: 225px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   margin-top: 10%;
 }
@@ -347,6 +347,13 @@ p {
     }
   .person {
     position: relative;
+  }
+}
+
+@media only screen and (min-width: 300px) {
+  .person-img {
+    width: 250px;
+    height: 250px;
   }
 }
 
