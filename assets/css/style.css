@@ -237,6 +237,7 @@ h1 {
 .col {
   float: left;
   width: 50%;
+  display: table-cell;
 }
 
 .row {
@@ -342,7 +343,11 @@ hr {
 }
 
 #faq {
-  position: relative;
+  clear: both;
+  position: static;
+  background-color: black;
+  display: block;
+  margin-top: 5%;
 }
 
 p {
@@ -360,6 +365,23 @@ a {
 .question {
   text-align: center;
   align-self: center;
+  font-size: 40px;
+  margin: 5%;
+}
+
+.answer {
+  text-align: center;
+  font-size: 25px;
+}
+
+.whiteLine {
+  color: white;
+  background-color: white;
+  margin: 10%;
+}
+
+.col-container {
+  display: inline-block;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -389,7 +411,7 @@ a {
   #countdown {
     margin: 25% 0% 5% 0%;
     clear: both;
-  }
+  } 
 }
 
 @media only screen and (min-width: 950px) {
