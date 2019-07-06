@@ -265,8 +265,12 @@ h1 {
   margin-top: 10%;
 }
 
-#ourStory, #events, #accommodations, #housekeeping, #activities, #contact, #adventures {
-  margin-top: 5% 0% 5% 0%;
+#ourStory, #events, #accommodations, #housekeeping, #activities, #contact, #adventures  {
+  margin-top: 5%;
+}
+
+.spaceOut {
+  padding-bottom: 5%;
 }
 
 
@@ -354,8 +358,9 @@ p {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-#adventures, #faq {
+#adventures, #faq, .footer {
   position: relative;
+  display: inline-block;
 }
 
 a {
@@ -363,24 +368,22 @@ a {
 }
 
 .question {
-  text-align: center;
-  align-self: center;
-  font-size: 40px;
+  font-size: 30px;
   margin: 5%;
+  display: inline-block;
+  vertical-align: center;
 }
 
 .answer {
-  text-align: center;
-  font-size: 25px;
+  font-size: 30px;
+  display: inline-block;
+  vertical-align: center;
 }
 
 .whiteLine {
   color: white;
   background-color: white;
-  margin: 10%;
-}
-
-.col-container {
+  margin: 5%;
   display: inline-block;
 }
 
