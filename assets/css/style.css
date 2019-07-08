@@ -48,6 +48,7 @@ h1 {
   margin: 35% 0% 10% 0%;
   clear: both;
 }
+
 .sacramento {
   font-family: 'Sacramento', cursive;
 }
@@ -144,7 +145,6 @@ h1 {
   border: medium solid white;
   border-width: 10px 10px 10px 0;
   border-color: transparent white transparent transparent;
-  
 }
 
 /* The actual content */
@@ -176,9 +176,13 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  width: 80%;
 }
 
-
+#countdown {
+  font-size: 24px;
+  font-style: italic;
+}
 
 /*this is the images in carousel for activities in tucson*/
 .d-block {
