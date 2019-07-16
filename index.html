@@ -57,20 +57,15 @@
         </div>
     </div>
 
-    <div class="col2 spaced-col">
+    <div class="col spaced-col">
         <h3 class="sacramento">On</h3>
         <h3>March 28, 2020</h3>
     </div>
-    <div class="col2 spaced-col">
-        <img id="clip" src="./assets/images/others/clip5.png" width="100px" height="100px" alt="">
-    </div>
-    <div class="col2 spaced-col">
+    <div class="col spaced-col">
         <h3 class="sacramento">In</h3>
         <h3>Tucson, AZ</h3>
     </div>
-<br>
-<br>
-<br>
+    <img id="clip" src="./assets/images/others/clip6.png" width="100px" height="150px" alt="">
     <div id="countdown"></div>
 
     <p class="poiret" id="welcome">
@@ -127,7 +122,7 @@
                     <br>
                     We spent the ensuing years deepening our love and becoming a part of each other's families. It's
                     funny how so many things in life are complicated, but our relationship has been the greatest,
-                    easiest, and most sensible thing I have experienced. 
+                    easiest, and most sensible thing I have experienced.
                     <br>
                     Laura and I lived in Denver for two years before briefly returning to Arizona. Recently, we landed
                     ourselves back in Colorado, this time in Colorado Springs. I could not be more happy, proud, and
@@ -294,7 +289,14 @@
         <div class="gifts">
             <p>Your presence is gift enough for us but if you feel inclined to get us something we have registered at
                 place...</p>
-            <a href="">registry link</a>
+            <a class="inLine" href="https://www.crateandbarrel.com/gift-registry/laura-reyes-and-greg-mash/r6009573">
+                <img src="./assets/images/others/Crate & Barrel .png" width="150px" height="150px"></img>
+                <p>Crate & Barrel</p>
+            </a>
+            <a class="inLine" href="https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/547676420">
+                <img src="./assets/images/others/BBB.jpg" width="150px" height="150px"></img>
+                <p>Bed, Bath & Beyond</p>
+            </a>
         </div>
         <div class="weddingParty">
             <h2>Wedding Party</h2>
@@ -642,18 +644,17 @@
     </div>
     <div class="footer">
         <div class="img-overlay">
-            <img src="./assets/images/others/footerImg..jpeg" max-width="100%" class="d-block" alt="We hope to see you there!">
+            <img src="./assets/images/others/footerImg..jpeg" max-width="100%" class="d-block"
+                alt="We hope to see you there!">
             <div class="hero-text2">
                 <h3>We Hope to See You There!</h3>
             </div>
         </div>
         <br>
         <br>
-        <br>
-        <br>
 
         <div>Engagement Photos by Carl S. Miller</div>
-        <img class="d-block" src="./assets/images/others/design1.png"></img>
+        <img src="./assets/images/others/design1.png" width="500px"></img>
 
     </div>
     <script>
@@ -662,7 +663,6 @@
         var diffTime = eventTimeStamp - currentTimeStamp;
 
         var duration = moment.duration(diffTime, "seconds");
-        console.log(duration);
         var interval = 1000;
 
         setInterval(function () {
