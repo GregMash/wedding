@@ -89,7 +89,7 @@ h1 {
   width: fit-content;
   text-align: center;
   position: absolute;
-  top: 80%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -188,7 +188,6 @@ h1 {
 /*this is the images in carousel for activities in tucson*/
 .d-block {
   width: 100%;
-  min-height: 300px;
   height: auto;
   left: 50%;
   top: 50%;
@@ -242,6 +241,12 @@ h1 {
 .col {
   float: left;
   width: 50%;
+  display: table-cell;
+}
+
+.col2 {
+  float: left;
+  width: 33%;
   display: table-cell;
 }
 
@@ -390,6 +395,10 @@ a {
   background-color: white;
   margin: 5%;
   display: inline-block;
+}
+
+#clip {
+  top: -30%;
 }
 
 @media only screen and (max-width: 1024px) {
