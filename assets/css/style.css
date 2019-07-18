@@ -58,6 +58,12 @@ h1 {
   font-family: 'Poiret One', cursive;
 }
 
+.indent {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
 .underline {
     -moz-background-size: 257px 954px;
     -o-background-size: 257px 954px;
@@ -239,15 +245,19 @@ h1 {
 
 /* Create two equal columns that floats next to each other */
 .col {
-  float: left;
   width: 50%;
   display: table-cell;
+  vertical-align: middle;
+  margin-top: 2%;
 }
+
 
 .col2 {
   float: left;
   width: 33%;
   display: table-cell;
+  vertical-align: middle;
+
 }
 
 .row {
@@ -306,24 +316,6 @@ h1 {
   color: white;
   clear: both;
   /* font-family: 'Open Sans Condensed', sans-serif; */
-}
-
-/* #story {
-  padding: 8% 0% 37% 0%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/g+lstory.jpg");
-  background-size: cover;
-  color: white;
-  margin-bottom: 1%;
-} */
-
-#story {
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/roses.png");
-  background-size: cover;
-  width: 90%;
-  color: black;
-  margin: auto;
-  background-position: bottom;
-  min-height: 900px; */
 }
 
 #adventures {
@@ -427,7 +419,6 @@ a {
     height: 350px;
   }
   #countdown {
-    margin: 5% 0% 10% 0%;
     clear: both;
   } 
   .d-block2 {
@@ -443,7 +434,6 @@ a {
   }
 
   #countdown {
-    margin: 5% 0% 10% 0%;
     clear: both;
   }
 }
