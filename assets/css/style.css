@@ -30,9 +30,18 @@ h1 {
   font-size: 50px;
 }
 
+.block {
+  margin: 3% 0% 3% 0%;
+}
+
 #welcome {
   width: 80%;
   font-size: 25px;
+  margin: auto;
+}
+#mabel {
+  width: 100%;
+  align-self: auto;
   margin: auto;
 }
 
@@ -43,6 +52,10 @@ h1 {
 
 .spaced-col {
   margin-top: 5%;
+}
+
+#clip {
+  clear: both;
 }
 
 #countdown {
@@ -249,16 +262,16 @@ h1 {
   display: table-cell;
   vertical-align: middle;
   margin-top: 2%;
+  float: left;
 }
-
 
 .col2 {
   float: left;
   width: 33%;
   display: table-cell;
   vertical-align: middle;
-
 }
+
 
 .row {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("../images/others/cactus4.png");
