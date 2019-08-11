@@ -12,9 +12,15 @@ body, html {
   background-color: black;
 }
 
-.nav-item, .navbar-brand {
+.nav-item {
   color: white;
   font-size: 13px;
+  margin: 0% 1.5% 0% 1.5%;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 20px;
   margin: 0% 1.5% 0% 1.5%;
 }
 
