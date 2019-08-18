@@ -328,7 +328,24 @@ h1 {
 }
 
 .columizer {
-  margin-bottom: 5%;
+  width: 90%;
+  margin: auto;
+  clear: all;
+  display: table;
+}
+
+.floatR {
+  clear: both;
+  float: left;
+  width: 50%;
+  margin: 5%;
+}
+
+.floatL {
+  clear: both;
+  float: right;
+  width: 50%;
+  margin: 5%;
 }
 
 #engagement {
@@ -449,6 +466,18 @@ a {
   margin: 2% 5% 2% 5%;
 }
 
+.spanning {
+  clear: both;
+  float: right;
+  position: relative;
+}
+
+.spanning2 {
+  clear: both;
+  float: left;
+  position: relative;
+}
+
 @media only screen and (max-width: 1024px) {
   .row {
     background-position: fixed;
@@ -463,12 +492,15 @@ a {
 
 @media only screen and (min-width: 300px) {
   .person-img {
-    width: 250px;
+    width: 200px;
     height: 250px;
   }
   .columizer {
     margin-bottom: 5%;
     overflow: auto;
+  }
+  #countdown {
+    margin-top: 8%;
   }
 }
 
@@ -488,6 +520,7 @@ a {
     margin-bottom: 5%;
     overflow: auto;
   }
+  
 }
 
 @media only screen and (min-width: 950px) {
