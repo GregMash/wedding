@@ -58,6 +58,13 @@ h1 {
   font-size: 25px;
   margin: auto;
 }
+
+#welcomeAddendum {
+  width: 80%;
+  font-size: 25px;
+  margin: auto;
+  color: teal;
+}
 #mabel {
   clear: both;
   width: 100%;
