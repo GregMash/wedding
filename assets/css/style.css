@@ -59,12 +59,17 @@ h1 {
   margin: auto;
 }
 
-#welcomeAddendum {
+.welcomeAddendum {
   width: 80%;
   font-size: 25px;
   margin: auto;
   color: teal;
 }
+
+#rsvpAddendum {
+  color: yellow;
+}
+
 #mabel {
   clear: both;
   width: 100%;
