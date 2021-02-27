@@ -63,18 +63,36 @@ h1 {
   width: 80%;
   font-size: 25px;
   margin: auto;
-  color: teal;
+  color: white;
 }
 
 #rsvpAddendum {
-  color: yellow;
+  color: rgb(52, 221, 221);
+}
+
+#urgentCareLink {
+  /* color: ; */
+  font-style: italic;
+}
+
+#emailKay {
+  font-style: italic;
+}
+
+#kayBlurb {
+  color: rgb(233, 170, 180);
 }
 
 #mabel {
   clear: both;
   width: 100%;
+  text-align: center;
   align-self: center;
   margin: auto;
+}
+
+.brightYellow {
+  color: rgb(234, 238, 4);
 }
 
 .block-text {
